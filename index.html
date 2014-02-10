@@ -5,6 +5,21 @@
 <title>GitHub User Page</title>
 </head>
 <body>
-<p>test!</p>
+<h1>Uğur's Projects</h1>
+<h2>Three.js</h2>
+<h3>01 Lighting and DoF Study</h3>
+<p>Fullscreen Three.js example that involves</p>
+<ul>
+	<li>nice lighting: a directional light and a hemisphere light. Idea is taken from Mr.Doob's flamingo example. All the OpenGL demos that I saw had cold and bad lighting that gave me the impression of cheapness. This was also the reason why I didn't like the first generation of 3D games.</li>
+	<li>a ground: I like the presentations where the object is on a light colored ground on which the object's shadow is cast.</li>
+	<li>shadows</li>
+	<li>a moving camera</li>
+	<li>a fog</li>
+	<li>animated objects: via request frame. cubus' are uniform randomly placed on a disk (explain this distirbution), rotated to look at the center. Their pivot points are moved to their bottom (from Mr.Doob's city example) and their xz-scale and y-scales have sinusoidal oscillations in opposite directions.</li>
+	<li>display for frames per second: via Stats.js</li>
+	<li>a GUI to change scene parameters: via DatGUI(?)</li>
+	<li>Post processing shaders: contrast, film, colorify, and most importantly Bokeh blur for Depth of field simulation. There was a bug that prevent to add a copy shader after Bokeh.</li>
+<p></p>
+<a href="http://vug.github.io/test/lighting_02/">link</a>
 </body>
 </html>
